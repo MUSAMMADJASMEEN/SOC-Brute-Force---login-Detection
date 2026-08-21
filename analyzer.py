@@ -1,6 +1,7 @@
 from collections import Counter
 
 LOG_FILE = "logs/login.log"
+ALERT_FILE = "logs/alerts.log"
 THRESHOLD = 5
 
 failed_ips = []
@@ -9,25 +10,53 @@ with open(LOG_FILE, "r") as file:
     for line in file:
         if "FAILED_LOGIN" in line:
             parts = line.split()
+
             for part in parts:
-                if part.startswith("IP="):
-                    ip = part.replace("IP=", "")
+                if part.startswith("ip="):
+                    ip = part.split("=")[1]
                     failed_ips.append(ip)
 
-counts = Counter(failed_ips)
+ip_counts = Counter(failed_ips)
 
 print("=== SOC BRUTE-FORCE DETECTION ===")
 
-for ip, attempts in counts.items():
+alerts_found = False
+alerts = []
+
+for ip, attempts in ip_counts.items():
     print("Source IP:", ip)
     print("Failed attempts:", attempts)
 
     if attempts >= THRESHOLD:
-        print("ALERT: Possible brute-force attack")
-        print("Severity: HIGH")
+        alerts_found = True
+
+        alert = (
+            "SECURITY ALERT\n"
+            "----------------\n"
+            f"Possible brute-force attack detected\n"
+            f"Source IP: {ip}\n"
+            f"Failed attempts: {attempts}\n"
+            "Severity: HIGH\n"
+        )
+
+        print(alert)
+        alerts.append(alert)
+
     else:
         print("Status: Normal")
 
     print()
+
+if alerts_found:
+    with open(ALERT_FILE, "w") as file:
+        file.write("=== SOC INCIDENT REPORT ===\n\n")
+
+        for alert in alerts:
+            file.write(alert)
+            file.write("\n")
+
+    print("Incident report saved to:", ALERT_FILE)
+else:
+    print("No brute-force activity detected.")
 
 print("=== Analysis Complete ===")
