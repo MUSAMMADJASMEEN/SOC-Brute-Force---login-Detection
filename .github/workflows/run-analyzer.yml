@@ -1,0 +1,30 @@
+name: Run SOC Analyzer
+
+on:
+  workflow_dispatch:
+
+jobs:
+  analyze:
+    runs-on: ubuntu-latest
+
+    permissions:
+      contents: read
+
+    steps:
+      - name: Get repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.x"
+
+      - name: Run analyzer
+        run: python analyzer.py
+
+      - name: Save alerts
+        uses: actions/upload-artifact@v4
+        with:
+          name: security-alerts
+          path: logs/alerts.log
+          if-no-files-found: ignore
