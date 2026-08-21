@@ -1,0 +1,20 @@
+SOC SECURITY ALERTS
+===================
+
+Alert ID: ALERT-001
+Type: Possible Brute-Force Attack
+Source IP: 192.168.1.50
+Failed Login Attempts: 5
+Severity: HIGH
+
+Status: OPEN
+
+Recommended SOC Actions:
+1. Investigate the source IP.
+2. Review surrounding authentication events.
+3. Check whether a successful login occurred after the failed attempts.
+4. Determine whether the target account may be compromised.
+5. Follow the organization's incident-response procedure.
+
+Note:
+This project uses simulated log data for educational purposes.
