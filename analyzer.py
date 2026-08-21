@@ -24,6 +24,7 @@ alerts_found = False
 alerts = []
 
 for ip, attempts in ip_counts.items():
+
     print("Source IP:", ip)
     print("Failed attempts:", attempts)
 
@@ -48,14 +49,13 @@ for ip, attempts in ip_counts.items():
     print()
 
 if alerts_found:
-    with open(ALERT_FILE, "w") as file:
-        file.write("=== SOC INCIDENT REPORT ===\n\n")
-
+    with open(ALERT_FILE, "a") as file:
         for alert in alerts:
             file.write(alert)
             file.write("\n")
 
-    print("Incident report saved to:", ALERT_FILE)
+    print("Alerts saved to:", ALERT_FILE)
+
 else:
     print("No brute-force activity detected.")
 
