@@ -54,9 +54,11 @@ activity.
 
 ## 6. Conclusion
 
-The activity triggered a high-severity alert because the number of failed login attempts reached the configured threshold.
+The activity triggered a high-severity alert because five failed login attempts from the same source IP reached the configured detection threshold.
 
-Further investigation is required before confirming that the account was compromised.
+A successful login from the same source IP occurred approximately 7 seconds after the final failed attempt. This increases the suspicion of possible account compromise.
+
+However, the simulated log data alone does not confirm that the activity was malicious or that the account was compromised. Further investigation and authorization verification are required.
 
 ## 7. Data Source
 
