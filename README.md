@@ -19,8 +19,8 @@ The project demonstrates log analysis, detection rules, alert generation, and in
 
 - `logs/login.log` -  Authentication log data
 - `analyzer.py` - Python detection script
-- `alerts.txt` - Generated SOC security alerts
-- `incident-report.md` - Investigation report
+- `logs/alerts.txt` - Generated SOC security alerts
+- `logs/incident-report.md` - Investigation report
 - `README.md` - Project documentation
 
 ## Detection Rule
