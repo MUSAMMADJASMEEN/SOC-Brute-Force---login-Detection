@@ -59,7 +59,20 @@ GitHub Actions Automation
 - Grouping: Source IP address
 - Event types: `FAILED_LOGIN` and `SUCCESS_LOGIN`
 - Escalation: HIGH severity
-- Additional context: Successful login after repeated failures is flagged as possible account compromise 
+- Additional context: Successful login after repeated failures is flagged as possible account compromise
+ ## Sample Detection Result
+
+The analyzer detected five failed login attempts from the same source IP and identified a successful login shortly after the final failure.
+
+**Detection Result:**
+- Source IP: `192.168.1.50`
+- Target Account: `admin`
+- Failed Attempts: `5`
+- Severity: `HIGH`
+- Status: `OPEN`
+- Assessment: Possible account compromise
+
+The generated security alert is saved as an investigation artifact for SOC analyst review. 
 ## Skills Demonstrated
 
 - Python
