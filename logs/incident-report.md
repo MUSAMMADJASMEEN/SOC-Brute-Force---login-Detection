@@ -24,7 +24,13 @@ Five failed login attempts were observed from `192.168.1.50` within a short peri
 The repeated attempts against the same account are consistent with possible password-guessing or brute-force activity.
 
 The available simulated log data does not prove that the account was successfully compromised.
+A successful login from the same source IP (192.168.1.50)
+occurred at 10:15:20, approximately 7 seconds after the
+final failed login attempt.
 
+This increases the suspicion of possible account compromise,
+although the simulated log data alone does not confirm malicious
+activity.
 ## 4. Indicators of Compromise
 
 | Indicator | Value |
