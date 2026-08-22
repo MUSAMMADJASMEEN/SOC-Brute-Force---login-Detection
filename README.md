@@ -33,4 +33,3 @@ If an IP address generates **5 or more failed login attempts**, the system creat
 Possible Brute-Force Attack
 Source IP: 192.168.1.50
 Failed Attempts: 5
-Severity: HIGH
