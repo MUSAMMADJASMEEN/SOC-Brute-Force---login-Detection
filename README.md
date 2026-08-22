@@ -6,6 +6,13 @@ This is a personal SOC Analyst project that detects possible brute-force login a
 
 The project demonstrates log analysis, detection rules, alert generation, and incident reporting.
 
+### Project Status
+
+- Brute-force detection: Working
+- Security alert generation: Working
+- Incident reporting: Complete
+- GitHub Actions automation: Working
+- Workflow artifact generation: Verified
 ## Skills Demonstrated
 
 - Python
