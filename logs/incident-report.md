@@ -37,8 +37,11 @@ activity.
 |---|---|
 | Source IP | 192.168.1.50 |
 | Username | admin |
-| Event | FAILED_LOGIN |
 | Failed Attempts | 5 |
+| Successful Login | Yes |
+| Successful Login Time | 10:15:20 |
+| Time After Final Failure | Approximately 7 seconds |
+| Event Pattern | 5 failed logins followed by successful login |
 
 ## 5. Recommended Response
 
