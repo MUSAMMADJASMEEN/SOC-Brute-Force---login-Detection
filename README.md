@@ -1,5 +1,28 @@
 # SOC Brute-Force Login Detection
 [![Run SOC Analyzer](https://github.com/MUSAMMADJASMEEN/SOC-Brute-Force---login-Detection/actions/workflows/run-analyzer.yml/badge.svg)](https://github.com/MUSAMMADJASMEEN/SOC-Brute-Force---login-Detection/actions/workflows/run-analyzer.yml)
+# SOC Brute-Force Login Detection
+
+[![Run SOC Analyzer](...)](...)
+
+## Recruiter Snapshot
+
+**SOC Analyst Portfolio Project — Brute-Force Login Detection**
+
+This project demonstrates practical SOC analyst skills by:
+
+- Analyzing authentication logs for suspicious login activity
+- Detecting repeated failed login attempts using a Python detection rule
+- Generating HIGH-severity security alerts
+- Investigating suspicious activity and documenting findings
+- Producing an incident report for analyst review
+- Automating detection with GitHub Actions
+- Generating and verifying workflow artifacts
+
+**Security scenario:** Five failed login attempts from the same source IP were followed by a successful login targeting the `admin` account, triggering a possible brute-force alert.
+
+**Project status:** Completed and automated.
+
+## Project Overview
 ## Project Overview
 
 This is a personal SOC Analyst project that detects possible brute-force login attacks by analyzing simulated authentication logs.
