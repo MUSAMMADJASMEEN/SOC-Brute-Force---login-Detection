@@ -203,3 +203,7 @@ If my project work matches your team's requirements, I would be happy to connect
 **Email: musammadjasmeen@gmail.com**
 
 «💼 Recruiters & Hiring Managers: Feel free to contact me directly regarding relevant cybersecurity opportunities.»
+
+## Project Workflow
+
+![Project Workflow](Images/file_000000000a148208a2f605e9896e01f3.png)
