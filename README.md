@@ -48,6 +48,11 @@ The analyzer detects repeated failed login attempts from the same source IP addr
 - Severity: HIGH
 - Status: OPEN
 
+## Investigation Finding
+
+Five failed login attempts from `192.168.1.50` targeting the `admin` account were followed by a successful login from the same source IP at `10:15:20`, approximately 7 seconds after the final failed attempt.
+
+This pattern increases suspicion of possible account compromise, but the simulated logs alone do not confirm malicious activity.
 ### SOC Analyst Response
 
 1. Investigate the source IP address.
