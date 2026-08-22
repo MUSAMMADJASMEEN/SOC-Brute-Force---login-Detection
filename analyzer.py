@@ -1,7 +1,7 @@
 from collections import Counter
 
 LOG_FILE = "logs/login.log"
-ALERT_FILE = "logs/alerts.log"
+ALERT_FILE = "logs/alerts.txt"
 THRESHOLD = 5
 
 failed_ips = []
