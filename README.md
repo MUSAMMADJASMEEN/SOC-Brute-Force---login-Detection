@@ -20,7 +20,6 @@ This project demonstrates practical SOC analyst skills by:
 **Project status:** Completed and automated.
 
 ## Project Overview
-## Project Overview
 
 This is a personal SOC Analyst project that detects possible brute-force login attacks by analyzing simulated authentication logs.
 
@@ -33,6 +32,34 @@ The project demonstrates log analysis, detection rules, alert generation, and in
 - Incident reporting: Complete
 - GitHub Actions automation: Working
 - Workflow artifact generation: Verified
+
+ ## Detection Logic
+
+The analyzer follows this SOC detection workflow:
+
+Authentication Logs
+↓
+Python Log Parsing
+↓
+Failed Login Count by Source IP
+↓
+Threshold Check (5+ failures)
+↓
+Check for Successful Login After Failures
+↓
+Generate HIGH-Severity Security Alert
+↓
+Save Alert & Incident Evidence
+↓
+GitHub Actions Automation
+
+### Detection Rule
+
+- Threshold: 5 failed login attempts
+- Grouping: Source IP address
+- Event types: `FAILED_LOGIN` and `SUCCESS_LOGIN`
+- Escalation: HIGH severity
+- Additional context: Successful login after repeated failures is flagged as possible account compromise 
 ## Skills Demonstrated
 
 - Python
