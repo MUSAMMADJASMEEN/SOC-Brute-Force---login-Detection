@@ -26,5 +26,5 @@ jobs:
         uses: actions/upload-artifact@v4
         with:
           name: security-alerts
-          path: logs/alerts.txt
+          path: logs/alerts.log
           if-no-files-found: ignore
