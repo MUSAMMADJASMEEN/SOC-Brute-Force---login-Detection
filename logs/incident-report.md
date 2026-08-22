@@ -45,10 +45,10 @@ activity.
 
 ## 5. Recommended Response
 
-1. Review additional authentication logs.
-2. Check whether a successful login occurred after the failed attempts.
-3. Verify whether the activity was authorized.
-4. Review the affected account for suspicious activity.
+1. Review additional authentication logs around the incident.
+2. Investigate the successful login at 10:15:20 from 192.168.1.50.
+3. Verify whether the successful login was authorized.
+4. Review the admin account for suspicious activity after the successful login.
 5. Follow the organization's approved incident-response process.
 6. Consider additional protective controls if malicious activity is confirmed.
 
