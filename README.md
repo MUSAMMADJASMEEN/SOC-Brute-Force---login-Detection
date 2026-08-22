@@ -171,3 +171,35 @@ The simulated log data does not independently confirm malicious activity.
 4. Review the `admin` account for suspicious activity.
 
 > This project uses simulated authentication data for cybersecurity education and portfolio demonstration.
+
+## 📩 Recruiter & Hiring Manager Contact
+
+I am building my cybersecurity career through hands-on SOC Analyst projects focused on security monitoring, log analysis, threat detection, incident investigation, and security automation.
+
+### 🛡️ Core Cybersecurity Skills
+
+- **Python** — Security log analysis
+- **Brute-Force Detection** — Identifying repeated failed login attempts
+- **Threat Detection** — Detecting suspicious authentication activity
+- **Security Alerts** — Alert generation and triage
+- **Incident Response** — Investigation and incident reporting
+- **GitHub Actions** — Security automation and workflow verification
+- **SOC Operations** — Investigation, documentation, and evidence handling
+
+### 🎯 Open to Opportunities
+
+SOC Analyst | Junior SOC Analyst | Cybersecurity Analyst | Security Operations
+
+I am looking for an opportunity where I can apply my cybersecurity skills, continue developing professionally, and contribute to a security operations team.
+
+If my project work matches your team's requirements, I would be happy to connect and discuss relevant opportunities.
+
+### 📬 Contact
+
+**GitHub: https://github.com/MUSAMMADJASMEEN**
+
+**LinkedIn: https://www.linkedin.com/in/musammad-jasmeen-22b458326**
+
+**Email: musammadjasmeen@gmail.com**
+
+«💼 Recruiters & Hiring Managers: Feel free to contact me directly regarding relevant cybersecurity opportunities.»
