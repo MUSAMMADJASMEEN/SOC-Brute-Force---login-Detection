@@ -17,9 +17,9 @@ The project demonstrates log analysis, detection rules, alert generation, and in
 
 ## Project Structure
 
-- `logs/login.log` - Simulated authentication logs
+- `logs/login.log` -  Authentication log data
 - `analyzer.py` - Python detection script
-- `alerts.txt` - Example SOC alerts
+- `alerts.txt` - Generated SOC security alerts
 - `incident-report.md` - Investigation report
 - `README.md` - Project documentation
 
@@ -34,11 +34,4 @@ Possible Brute-Force Attack
 Source IP: 192.168.1.50
 Failed Attempts: 5
 ```
-## Sample Detection Result
 
-The analyzer successfully detected a possible brute-force attack.
-
-Source IP: 192.168.1.50
-Failed Attempts: 5
-Severity: HIGH
-Detection: Brute-Force Attack
