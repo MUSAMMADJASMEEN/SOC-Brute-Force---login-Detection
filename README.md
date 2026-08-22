@@ -34,4 +34,32 @@ Possible Brute-Force Attack
 Source IP: 192.168.1.50
 Failed Attempts: 5
 ```
+## Detection Example
 
+The analyzer detects repeated failed login attempts from the same source IP address.
+
+### Detection Details
+
+- Source IP: `192.168.1.50`
+- Target Account: `admin`
+- Failed Login Attempts: `5`
+- Detection Threshold: `5`
+- Alert Type: Possible Brute-Force Attack
+- Severity: HIGH
+- Status: OPEN
+
+### SOC Analyst Response
+
+1. Investigate the source IP address.
+2. Review surrounding authentication events.
+3. Check whether a successful login occurred after the failed attempts.
+4. Determine whether the target account may be compromised.
+5. Follow the organization's incident-response procedures.
+
+### Automation
+
+GitHub Actions runs the analyzer and saves the generated security alerts as a workflow artifact.
+
+Detection flow:
+
+`Authentication Logs → Python Analyzer → Detection Rule → Security Alert → GitHub Actions Artifact`
