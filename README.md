@@ -68,3 +68,28 @@ GitHub Actions runs the analyzer and saves the generated security alerts as a wo
 Detection flow:
 
 `Authentication Logs → Python Analyzer → Detection Rule → Security Alert → GitHub Actions Artifact`
+
+## Sample Detection Result
+
+- **Alert ID:** ALERT-001
+- **Alert Type:** Possible Brute-Force Attack
+- **Source IP:** `192.168.1.50`
+- **Target Account:** `admin`
+- **Failed Attempts:** 5
+- **Severity:** HIGH
+- **Status:** OPEN
+
+### SOC Assessment
+
+Five failed login attempts were detected from the same source IP, followed by a successful login approximately 7 seconds after the final failure. This pattern is suspicious and may indicate possible account compromise.
+
+The simulated log data does not independently confirm malicious activity.
+
+### Recommended SOC Actions
+
+1. Investigate the source IP.
+2. Review surrounding authentication logs.
+3. Verify whether the successful login was authorized.
+4. Review the `admin` account for suspicious activity.
+
+> This project uses simulated authentication data for cybersecurity education and portfolio demonstration.
