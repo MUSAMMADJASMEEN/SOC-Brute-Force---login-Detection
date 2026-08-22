@@ -73,6 +73,17 @@ The analyzer detected five failed login attempts from the same source IP and ide
 - Assessment: Possible account compromise
 
 The generated security alert is saved as an investigation artifact for SOC analyst review. 
+## Evidence & Artifacts
+
+The project generates and maintains investigation evidence during analysis:
+
+- `logs/login.log` — simulated authentication events
+- `logs/alerts.txt` — generated security alert
+- `logs/incident-report.md` — SOC incident report
+- `analyzer.py` — Python detection and analysis logic
+- `.github/workflows/run-analyzer.yml` — automated GitHub Actions workflow
+
+The GitHub Actions workflow automatically runs the analyzer and verifies that the detection process completes successfully.
 ## Skills Demonstrated
 
 - Python
