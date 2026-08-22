@@ -1,5 +1,5 @@
 # SOC Brute-Force Login Detection
-
+[![Run SOC Analyzer](https://github.com/MUSAMMADJASMEEN/SOC-Brute-Force---login-Detection/actions/workflows/run-analyzer.yml/badge.svg)](https://github.com/MUSAMMADJASMEEN/SOC-Brute-Force---login-Detection/actions/workflows/run-analyzer.yml)
 ## Project Overview
 
 This is a personal SOC Analyst project that detects possible brute-force login attacks by analyzing simulated authentication logs.
