@@ -208,6 +208,6 @@ If my project work matches your team's requirements, I would be happy to connect
 
 ![Project Workflow](Images/file_000000000a148208a2f605e9896e01f3.png)
 
-## Analyzer Output 
+## Analyzer Output
 
-![Analyzer Output](Images/file_00000000413c8211bafcc9c8d6ded9084.png)
+![Analyzer Output](Images/analyzer-output.png)
