@@ -1,8 +1,5 @@
 # SOC Brute-Force Login Detection
 [![Run SOC Analyzer](https://github.com/MUSAMMADJASMEEN/SOC-Brute-Force---login-Detection/actions/workflows/run-analyzer.yml/badge.svg)](https://github.com/MUSAMMADJASMEEN/SOC-Brute-Force---login-Detection/actions/workflows/run-analyzer.yml)
-# SOC Brute-Force Login Detection
-
-[![Run SOC Analyzer](...)](...)
 
 ## Recruiter Snapshot
 
