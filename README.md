@@ -252,7 +252,7 @@ Recommended SOC analyst actions after a brute-force detection:
 - Reset the affected account credentials if compromise is suspected.
 ### Security Response Workflow
 
-![Security Response Workflow](Images/security-response-workflow.png)
+![Security Response Workflow](Images/Security-%20response-workflow.png)
 
 ## Limitations & Future Improvements
 
