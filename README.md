@@ -238,3 +238,15 @@ If my project work matches your team's requirements, I would be happy to connect
 ## Incident Report
 
 ![Incident Report](Images/incident-report.png)
+
+
+## Security Response
+
+Recommended SOC analyst actions after a brute-force detection:
+
+- Investigate the source IP address.
+- Verify whether the login attempts are authorized.
+- Review authentication logs for additional suspicious activity.
+- Consider blocking the source IP if malicious activity is confirmed.
+- Monitor the affected account for further suspicious logins.
+- Reset the affected account credentials if compromise is suspected.
