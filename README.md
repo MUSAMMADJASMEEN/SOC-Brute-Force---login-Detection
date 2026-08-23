@@ -250,3 +250,20 @@ Recommended SOC analyst actions after a brute-force detection:
 - Consider blocking the source IP if malicious activity is confirmed.
 - Monitor the affected account for further suspicious logins.
 - Reset the affected account credentials if compromise is suspected.
+
+Limitations & Future Improvements
+
+Current limitations of the project include:
+
+- Detection is based on a fixed threshold of 5 failed login attempts.
+- The project uses simulated authentication log data.
+- Detection is currently focused on brute-force login activity.
+- The analyzer does not yet include real-time monitoring.
+
+Future improvements could include:
+
+- Add real-time log monitoring.
+- Add more MITRE ATT&CK technique mappings.
+- Add email or messaging notifications for security alerts.
+- Integrate the detection logic with a SIEM platform.
+- Add automated IP blocking for confirmed malicious activity.
