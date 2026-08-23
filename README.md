@@ -40,7 +40,7 @@ The project demonstrates log analysis, detection rules, alert generation, and in
 ```bash
 git clone https://github.com/MUSAMMADJASMEEN/SOC-Brute-Force---login-Detection.git
 cd SOC-Brute-Force---login-Detection
-
+```
 ### Detection Logic
 
 The analyzer follows this SOC detection workflow:
