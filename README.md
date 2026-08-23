@@ -210,4 +210,4 @@ If my project work matches your team's requirements, I would be happy to connect
 
 ## Analyzer Output
 
-![Analyzer Output](Images/analyzer-output.png)
+![Analyzer Output](Images/analyzer-output-3.png)
