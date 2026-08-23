@@ -78,7 +78,7 @@ The generated security alert is saved as an investigation artifact for SOC analy
 The project generates and maintains investigation evidence during analysis:
 
 - `logs/login.log` — simulated authentication events
-- `logs/alerts.txt` — generated security alert
+- `logs/alerts.log` — generated security alert
 - `logs/incident-report.md` — SOC incident report
 - `analyzer.py` — Python detection and analysis logic
 - `.github/workflows/run-analyzer.yml` — automated GitHub Actions workflow
@@ -97,7 +97,7 @@ The GitHub Actions workflow automatically runs the analyzer and verifies that th
 
 - `logs/login.log` -  Authentication log data
 - `analyzer.py` - Python detection script
-- `logs/alerts.txt` - Generated SOC security alerts
+- `logs/alerts.log` - Generated SOC security alerts
 - `logs/incident-report.md` - Investigation report
 - `README.md` - Project documentation
 
