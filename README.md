@@ -251,7 +251,7 @@ Recommended SOC analyst actions after a brute-force detection:
 - Monitor the affected account for further suspicious logins.
 - Reset the affected account credentials if compromise is suspected.
 
-Limitations & Future Improvements
+## Limitations & Future Improvements
 
 Current limitations of the project include:
 
