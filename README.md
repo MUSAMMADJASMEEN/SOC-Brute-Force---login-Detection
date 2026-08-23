@@ -250,6 +250,9 @@ Recommended SOC analyst actions after a brute-force detection:
 - Consider blocking the source IP if malicious activity is confirmed.
 - Monitor the affected account for further suspicious logins.
 - Reset the affected account credentials if compromise is suspected.
+### Security Response Workflow
+
+![Security Response Workflow](Images/security-response-workflow.png)
 
 ## Limitations & Future Improvements
 
