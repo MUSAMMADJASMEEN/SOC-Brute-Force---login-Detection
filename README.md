@@ -101,6 +101,21 @@ The GitHub Actions workflow automatically runs the analyzer and verifies that th
 - Incident Reporting
 - SOC Investigation
 
+## MITRE ATT&CK Mapping
+
+This project maps the detected brute-force activity to the following MITRE ATT&CK technique:
+
+- **T1110 – Brute Force**
+  - The analyzer detects repeated failed login attempts from the same source IP.
+  - Detection threshold: **5 or more failed login attempts**.
+  - The activity is escalated as a **HIGH severity** security alert.
+  - A successful login following repeated failures is treated as additional suspicious context.
+
+### Detection Coverage
+
+| MITRE ATT&CK Technique | Technique Name | Detection |
+|---|---|---|
+| T1110 | Brute Force | 5+ failed login attempts from the same source IP |
 ## Project Structure
 
 - `logs/login.log` -  Authentication log data
