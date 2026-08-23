@@ -33,7 +33,15 @@ The project demonstrates log analysis, detection rules, alert generation, and in
 - GitHub Actions automation: Working
 - Workflow artifact generation: Verified
 
- ## Detection Logic
+## 🚀 Quick Start
+
+### 1. Clone the repository
+
+```bash
+git clone https://github.com/MUSAMMADJASMEEN/SOC-Brute-Force---login-Detection.git
+cd SOC-Brute-Force---login-Detection
+
+### Detection Logic
 
 The analyzer follows this SOC detection workflow:
 
