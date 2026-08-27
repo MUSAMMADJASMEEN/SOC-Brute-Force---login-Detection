@@ -234,6 +234,9 @@ If my project work matches your team's requirements, I would be happy to connect
 
 ![Project Workflow](Images/project-workflow.png)
 
+## Security Monitoring Dashboard
+
+![Security Monitoring Dashboard](Images/security-monitoring-dashboard.png)
 ## Analyzer Output
 
 ![Analyzer Output](Images/analyzer-output-3.png)
