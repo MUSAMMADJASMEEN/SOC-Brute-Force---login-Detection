@@ -118,7 +118,7 @@ This project maps the detected brute-force activity to the following MITRE ATT&C
 | T1110 | Brute Force | 5+ failed login attempts from the same source IP |
 ### MITRE ATT&CK Mapping Visualization
 
-![MITRE ATT&CK T1110 - Brute Force](Images/mitre-attck-t1110-brute-force.png)
+![MITRE ATT&CK T1110 - Brute Force](Images/mitre-attck-t1110-brute-force%20.png)
 ## Project Structure
 
 - `logs/login.log` -  Authentication log data
