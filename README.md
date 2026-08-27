@@ -276,3 +276,7 @@ Future improvements could include:
 - Add email or messaging notifications for security alerts.
 - Integrate the detection logic with a SIEM platform.
 - Add automated IP blocking for confirmed malicious activity.
+
+## Limitations & Future Improvements
+
+![Limitations & Future Improvements](Images/limitations-future-improvements.png)
